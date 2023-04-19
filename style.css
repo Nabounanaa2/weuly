@@ -1,0 +1,33 @@
+.header {
+     background-color: #17a2b8;
+     margin: 0;
+     padding: 0;
+    }
+    .navbar{
+     display: flex;
+        justify-content: space-between;
+    align-items: center;
+    }
+    nav ul li{
+     list-style-type: none;
+     display: inline-block;
+     padding: 10px;
+    }
+    ul li a{
+    color: blue; 
+    letter-spacing: 0,1rem;
+    
+    }
+    ul li a:hover{
+     color: #17a2b8;
+    text-decoration: underline;
+}
+button {
+    background-color: transparent;
+    color: green; /* couleur de texte blanc */
+    padding: 10px 20px; /* ajout de l'espace intérieur */
+    border: none; /* suppression de la bordure */
+    border-radius: 5px; /* arrondi des coins */
+    font-size: 16px; /* taille de police */
+  }
+     
